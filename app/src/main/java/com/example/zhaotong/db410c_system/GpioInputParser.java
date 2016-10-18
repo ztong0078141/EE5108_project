@@ -1,4 +1,4 @@
-package com.example.zhaotong.db410c_system.Bluetooth;
+package com.example.zhaotong.db410c_system;
 
 import net.calit2.mooc.iot_db410c.db410c_gpiolib.GpioProcessor;
 

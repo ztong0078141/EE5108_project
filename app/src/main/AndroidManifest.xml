@@ -20,7 +20,7 @@
         </activity>
 
         <activity
-            android:name=".Bluetooth.DeviceListActivity"
+            android:name=".DeviceListActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/select_device"
             android:theme="@android:style/Theme.Holo.Dialog"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for

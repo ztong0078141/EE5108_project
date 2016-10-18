@@ -1,6 +1,4 @@
 <resources>
-
-    <!-- Customize your theme here. -->
     <style name="Theme.Base" parent="android:Theme.Light" />
 
     <style name="Theme.Sample" parent="Theme.Base" />
@@ -21,4 +19,3 @@
     </style>
 
 </resources>
-

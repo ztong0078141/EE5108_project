@@ -1,4 +1,4 @@
-package com.example.zhaotong.db410c_system.Bluetooth;
+package com.example.zhaotong.db410c_system;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;

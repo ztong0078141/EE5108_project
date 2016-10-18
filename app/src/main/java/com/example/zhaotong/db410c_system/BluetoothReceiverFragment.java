@@ -1,4 +1,4 @@
-package com.example.zhaotong.db410c_system.Bluetooth;
+package com.example.zhaotong.db410c_system;
 
 import android.app.ActionBar;
 import android.app.Activity;

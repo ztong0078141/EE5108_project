@@ -9,34 +9,16 @@
     <!-- Need to add buttons -->
     <Button
         android:id="@+id/yellow_on"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="#FFFF00"
         android:text="On"
         />
 
     <Button
-        android:id="@+id/red_on"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:background="#FF0000"
-        android:layout_toRightOf="@+id/yellow_on"
-        android:text="On"
-        />
-
-    <Button
-        android:id="@+id/green_on"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:background="#00FF00"
-        android:layout_toRightOf="@+id/red_on"
-        android:text="On"
-        />
-
-    <Button
         android:id="@+id/yellow_off"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="#FFFF00"
         android:layout_below="@+id/yellow_on"
         android:layout_marginTop="20dp"
@@ -44,25 +26,39 @@
         />
 
     <Button
-        android:id="@+id/red_off"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:id="@+id/green_on"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00FF00"
+        android:text="On"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/red_on"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="#FF0000"
-        android:layout_below="@+id/red_on"
-        android:layout_toRightOf="@+id/yellow_off"
-        android:layout_marginTop="20dp"
-        android:text="Off"
-        />
+        android:text="On"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/green_off"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="#00FF00"
-        android:layout_below="@+id/green_on"
-        android:layout_toRightOf="@+id/red_off"
-        android:layout_marginTop="20dp"
         android:text="Off"
-        />
+        android:layout_alignBottom="@+id/yellow_off"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/red_off"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FF0000"
+        android:text="Off"
+        android:layout_alignBottom="@+id/yellow_off"
+        android:layout_alignStart="@+id/red_on" />
 
 </RelativeLayout>

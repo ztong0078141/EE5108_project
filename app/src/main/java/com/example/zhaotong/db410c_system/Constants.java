@@ -1,4 +1,4 @@
-package com.example.zhaotong.db410c_system.Bluetooth;
+package com.example.zhaotong.db410c_system;
 
 /**
  * Created by zhaotong on 17/10/2016.
